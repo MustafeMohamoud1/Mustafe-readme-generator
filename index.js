@@ -10,24 +10,40 @@ const questions = [
         message: 'What is the name of yout project?'
     },
     {
-        type: 'input',
-        name: 'motivation',
-        message: 'What was your motivation??'
+      type: 'input',
+      name: 'description',
+      message: 'Provide a brief description of your project:',
     },
     {
-        type: 'input',
-        name: 'purpose',
-        message: 'Why did you build this project?'
+      type: 'input',
+      name: 'installation',
+      message: 'How do you install your project?',
     },
     {
-        type: 'input',
-        name: 'functionality',
-        message: 'What problem does it solve?'
+      type: 'input',
+      name: 'usage',
+      message: 'How do you use your project?',
     },
     {
-        type: 'input',
-        name: 'thoughts',
-        message: 'What makes your project stand out?'
+      type: 'input',
+      name: 'contributing',
+      message: 'How can others contribute to your project?',
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'How do you run tests for your project?',
+    },
+    {
+      type: 'list',
+      name: 'license',
+      message: 'Choose a license for your project:',
+      choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'None'],
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address?',
     },
 ];
 
